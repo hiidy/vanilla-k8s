@@ -4,7 +4,7 @@
 
 ## 목표
 
-- kubeadm 없이 Kubernetes v1.33.3 클러스터 구축
+- 바이너리 직접 배포 방식으로 Kubernetes 클러스터를 구축
 - x509 인증서 기반 보안 통신
 - control plane 고가용성(2노드) 구성
 - kube-proxy IPVS 모드
