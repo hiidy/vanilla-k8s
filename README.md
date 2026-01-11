@@ -65,6 +65,10 @@
    - etcd 클러스터 구성 및 검증
 6. [06-master.md](06-master.md)
    - control plane 구성 (apiserver/controller-manager/scheduler)
+7. [07-worker.md](07-worker.md)
+   - 워커 노드 구성 (kubelet/kube-proxy/containerd) 및 kube-apiserver HA 프록시
+8. [08-cilium.md](08-cilium.md)
+   - Cilium + CoreDNS 배포 및 네트워크 검증
 
 ## 환경 설정 포인트
 
