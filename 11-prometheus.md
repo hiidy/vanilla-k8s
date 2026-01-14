@@ -89,6 +89,8 @@ Forwarding from 0.0.0.0:9090 -> 9090
 
 브라우저로 `http://public-ip:9090/`에 접속합니다. 접속 화면은 다음과 같습니다
 
+<img width="2295" height="497" alt="image" src="https://github.com/user-attachments/assets/df2bc178-7702-4d57-824c-a2a1871ac98a" />
+
 
 
 ## Grafana UI 접속
@@ -100,9 +102,13 @@ $ kubectl port-forward --address 0.0.0.0 svc/grafana -n monitoring 3000:3000
 Forwarding from 0.0.0.0:3000 -> 3000
 ```
 
-브라우저로 `http://public-ip:3000/`에 접속합니다. 접속 화면은 다음과 같습니다
+브라우저로 `http://public-ip:3000/`에 접속합니다. 접속 화면은 다음과 같습니다.
+
+<img width="526" height="537" alt="image" src="https://github.com/user-attachments/assets/ab54b36e-4c59-4409-9816-f5ccc920befa" />
 
 
-`admin/admin`으로 로그인합니다. 로그인 후 다양한 사전 정의된 대시보드를 볼 수 있으며, 화면은 다음과 같습니다
 
+`admin/admin`으로 로그인합니다. 로그인 후 다양한 사전 정의된 대시보드를 볼 수 있으며 화면은 다음과 같습니다.
+
+<img width="2253" height="1070" alt="image" src="https://github.com/user-attachments/assets/18a4919d-510e-4da3-9f9c-6698cbb933dc" />
 
