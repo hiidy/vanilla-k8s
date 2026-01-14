@@ -33,6 +33,8 @@ kubernetes-dashboard-web-59b8766cc-t5mnz               1/1     Running   0      
 
 모든 Pod가 `Running` 상태가 되면, 브라우저를 열고 `https://public-ip:9443/`에 접속합니다. 화면은 다음과 같습니다
 
+<img width="943" height="392" alt="image" src="https://github.com/user-attachments/assets/60af6f6c-35f4-4af1-ad18-31931f6bc475" />
+
 
 
 로그인 화면이 나타나면 Bearer token을 통해 로그인해야 합니다. 따라서 먼저 Bearer token을 생성해야 합니다.
@@ -53,6 +55,9 @@ echo ${DASHBOARD_LOGIN_TOKEN}
 ```
 
 출력된 token을 사용하여 Dashboard에 로그인합니다. 다음 로그인 시 편의를 위해 token을 별도로 저장해 두는 것이 좋습니다. 로그인 후 화면은 다음과 같습니다
+
+<img width="2255" height="1178" alt="image" src="https://github.com/user-attachments/assets/fd11d739-fdf1-4a9a-bf2a-fd5d29ad10bc" />
+
 
 
 
